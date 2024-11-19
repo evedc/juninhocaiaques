@@ -104,3 +104,9 @@
     background: rgb(125, 116, 116);
     background: linear-gradient(6deg, rgba(125, 116, 116, 1) 0%, rgba(248, 255, 0, 1) 100%);
 }
+
+@media screen and (min-width: 1200px) {
+    .title {
+        width: 30%;
+    }
+}
