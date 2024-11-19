@@ -13,7 +13,6 @@
 }
 
 .image img {
-
     margin-top: 20px;
     width: 150px;
     height: auto;
@@ -27,12 +26,10 @@
 @keyframes slideFromLeft {
     0% {
         transform: translateX(-100%);
-        /* Começa fora da tela à esquerda */
     }
 
     100% {
         transform: translateX(0);
-        /* Termina centralizado */
     }
 }
 
@@ -69,7 +66,7 @@
 
 }
 
-.title h2 {
+.title p {
     margin-top: 10px;
     width: 80%;
     text-align: center;
@@ -106,4 +103,15 @@
     transform: scale(1.05);
     background: rgb(125, 116, 116);
     background: linear-gradient(6deg, rgba(125, 116, 116, 1) 0%, rgba(248, 255, 0, 1) 100%);
+}
+
+.container h2 {
+    display: flex;
+    font-size: 12px;
+    color: #ffffff2b;
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10px;
 }
